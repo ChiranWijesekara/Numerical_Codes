@@ -5,7 +5,6 @@
 void gaussianElimination(double a[N][N + 1]) {
     int i, j, k;
     double factor;
-
     // Forward Elimination
     for (i = 0; i < N - 1; i++) {
         for (j = i + 1; j < N; j++) {
